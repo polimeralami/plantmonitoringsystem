@@ -1,16 +1,7 @@
 # plantmonitoringsystem
 
-A new Flutter project.
+Final Year Project (FYP) in Universiti Teknologi Malaysia
 
-## Getting Started
+A Greenhouse Monitoring System.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The processing of the sensor readings that determine the parameters of temperature, soil moisture, and humidity in the greenhouse implemented by utilizing Arduino IDE, which later work the IoT module automatically in order to maintain two output control which are misting nozzle, and drip irrigation pump. The variables that may be monitored through an Android smartphone include: temperature, humidity of the room, and soil moisture.
