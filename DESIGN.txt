@@ -1,0 +1,83 @@
+PLANT MONITORING SYSTEM
+
+PAGE
+-REGISTER (first name, last name, email, password) [OK]
+-FORGOT PASSWORD (email) [OK]
+-LOGIN (email password) [OK]
+-HOME (TEMPERATURE, HUMIDITY, SOIL MOISTURE (diklik buka page baru)) [TAB1]
+	-SOIL MOISTURE (SOIL MOIST PLANT 1, SOIL MOIST PLANT 2, ETC)
+-HISTORY [TAB2]
+-LOGOUT [TAB3] NAMPIL KONFIRMASI [OK]
+
+
+hijau theme = #4caf50
+
+
+FLUTTER COMMAND
+===
+flutter create plantmonitoringsystem
+flutter devices
+flutter run
+flutter pub add local_auth
+flutter pub get
+flutter pub upgrade
+flutter build apk --debug
+
+FIREBASE SETTING
+firebase login
+dart pub global activate flutterfire_cli
+flutterfire configure --project=test-bf718
+
+FIREBASE REALTIME DB
+struktur ada di example.json
+
+
+
+REVISI
+- Login UI nya kalo bisa prompt user untuk login pake biometrik dulu, kalau user ga mau, baru di direct usernya buat type-in langsung email sama password nya. Jadi usernya ga perlu scroll screen gitu.
+- tambah pop notification setelah registrasi selesai buat direct user untuk verify emailnya.
+
+
+
+
+
+
+
+
+
+djrandeez@gmail.com
+p4ssw0rd
+
+
+
+
+
+
+
+
+flutterflow command
+====
+flutter pub get
+flutter packages pub run build_runner build --delete-conflicting-outputs
+
+
+I want you to act as flutter developer, 
+we will create the app that will read the data from firebase realtime database, 
+user can do the login using firebase auth.
+only answer with flutter code without explaining things.
+
+this is the realtime database schema
+
+-Temp: number
+-Humidity: number
+-Moisture: {
+	Plant1: number,
+	Plant2: number,
+	Plant3: number
+}
+-Motor: ON/OFF
+-State: ON/OFF
+
+
+
+

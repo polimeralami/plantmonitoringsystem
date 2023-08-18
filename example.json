@@ -1,0 +1,69 @@
+{
+  "realtime": {
+    "temp": 21.5,
+    "humidity": 79,
+    "moisture": {
+      "plant1": 79,
+      "plant2": 65,
+      "plant3": 98
+    },
+    "motor": "ON",
+    "state": "ON"
+  },
+  "history": {
+    "2023-02-01": {
+      "temp": 22.5,
+      "humidity": 81,
+      "moisture": {
+        "plant1": 77,
+        "plant2": 45,
+        "plant3": 65
+      }
+    },
+    "2023-02-02": {
+      "temp": 23.5,
+      "humidity": 51,
+      "moisture": {
+        "plant1": 67,
+        "plant2": 86,
+        "plant3": 56
+      }
+    },
+    "2023-02-03": {
+      "temp": 23.5,
+      "humidity": 51,
+      "moisture": {
+        "plant1": 67,
+        "plant2": 86,
+        "plant3": 56
+      }
+    },
+    "2023-02-04": {
+      "temp": 23.5,
+      "humidity": 51,
+      "moisture": {
+        "plant1": 67,
+        "plant2": 86,
+        "plant3": 56
+      }
+    },
+    "2023-02-05": {
+      "temp": 23.5,
+      "humidity": 51,
+      "moisture": {
+        "plant1": 67,
+        "plant2": 86,
+        "plant3": 56
+      }
+    },
+    "2023-02-06": {
+      "temp": 23.5,
+      "humidity": 51,
+      "moisture": {
+        "plant1": 67,
+        "plant2": 86,
+        "plant3": 56
+      }
+    }
+  }
+}
