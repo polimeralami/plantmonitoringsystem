@@ -28,9 +28,10 @@ A microcontroller (ESP32) serves as the command and control hub for the sensors 
 
 <details>
 
-<summary>IoT Code Installation</summary>
+<summary>IOT CODE INSTALLATION</summary>
 
-All important code related to IoT is in the **IoT Code** folder. Remember to *separate* and *delete* the "IoT Code" folder from the whole mobile application code because it might cause an error. Run "IoT Code" folder in separate environment and use Arduino IDE for the better.
+
+All important code related to IoT is in the **"IoT Code"** folder. Remember to *separate* and *delete* the "IoT Code" folder from the whole mobile application code because it might cause an error. Run "IoT Code" folder in separate environment and use Arduino IDE for the better.
 
 ### All Basic Folder
 
