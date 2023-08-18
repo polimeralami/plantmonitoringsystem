@@ -10,11 +10,11 @@
 #include "addons/RTDBHelper.h"
 
 // Insert your network credentials
-#define WIFI_SSID "realme 3 Pro"
-#define WIFI_PASSWORD "b5c032a461bf"
+#define WIFI_SSID "Wi-Fi name" //change wifi name
+#define WIFI_PASSWORD "password" //change password
 
-#define API_KEY "AIzaSyB753OlmLIV-ZwxzfXcJj1-OdN59nakaao"
-#define DATABASE_URL "https://test-bf718-default-rtdb.asia-southeast1.firebasedatabase.app/" 
+#define API_KEY "AIzaSyB753OlmLIV-ZwxzfXcJj1-OdN59nakaaoo" //change api key
+#define DATABASE_URL "https://test-bf7118-default-rtdb.asia-southeast1.firebasedatabase.app/" //change database url
 
 //Define Firebase Data object
 FirebaseData fbdo;
