@@ -6,10 +6,10 @@
 #include "DHT.h"
 #include "time.h"
 
-#define WIFI_SSID "vivo V27"
-#define WIFI_PASSWORD "Test1234"
-#define API_KEY "AIzaSyB753OlmLIV-ZwxzfXcJj1-OdN59nakaao"
-#define DATABASE_URL "https://test-bf718-default-rtdb.asia-southeast1.firebasedatabase.app/" 
+#define WIFI_SSID "Wi-Fi name" // change wifi name
+#define WIFI_PASSWORD "password" // change password
+#define API_KEY "AIzaSyB753OlmLIV-ZwxzfXcJj1-OdN59nakaaoo" // change api key
+#define DATABASE_URL "https://test-bf7118-default-rtdb.asia-southeast1.firebasedatabase.app/" // change database url
 #define DHTPIN 27
 #define DHTTYPE DHT11   // DHT 11
 #define relayPinMoist 25
